@@ -32,7 +32,7 @@ angular.module('sponsBrochureApp')
 		};
 
 		$scope.homePage = function() {
-			window.location.assign("http://localhost:9000/#/");
+			window.location.assign("http://shaastra.org:8081/#/");
 			location.reload();
 		};
 	});
