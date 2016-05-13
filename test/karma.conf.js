@@ -79,7 +79,7 @@ module.exports = function(config) {
 
     // Uncomment the following lines if you are using grunt's server to run the tests
     // proxies: {
-    //   '/': 'http://shaastra.org:8081/'
+    //   '/': 'http://ebrochure.shaastra.org/'
     // },
     // URL root prevent conflicts with the site root
     // urlRoot: '_karma_'
