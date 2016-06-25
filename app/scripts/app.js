@@ -78,6 +78,16 @@ angular
         controller: 'menuCtrl',
         controllerAs: 'Menu'
       })
+      .when('/shows', {
+        templateUrl: 'views/spons-shows.html',
+        controller: 'menuCtrl',
+        controllerAs: 'Menu'
+      })
+      .when('/exhibitions', {
+        templateUrl: 'views/spons-exhibitions.html',
+        controller: 'menuCtrl',
+        controllerAs: 'Menu'
+      })
       .when('/publicity', {
         templateUrl: 'views/spons-publicity.html',
         controller: 'menuCtrl',

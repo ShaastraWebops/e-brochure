@@ -1,0 +1,59 @@
+/*!
+ * Start Bootstrap - Scrolling Nav HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+
+/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
+The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
+of those sections to manage the look and feel of the site. */
+
+.intro-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #fff;
+}
+
+.about-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #eee;
+}
+
+.services-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #fff;
+}
+
+.contact-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #eee;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNjcm9sbGluZy1uYXYuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBOzs7O0dBSUc7O0FBRUg7SUFDSSxZQUFZO0lBQ1osYUFBYTtDQUNoQjs7QUFFRDtJQUNJLFlBQVk7SUFDWixhQUFhO0NBQ2hCOztBQUVEO0lBQ0k7UUFDSSxnQkFBZ0I7UUFHaEIsK0RBQStEO0tBQ2xFOztJQUVEO1FBQ0ksV0FBVztLQUNkO0NBQ0o7O0FBRUQ7OzZEQUU2RDs7QUFFN0Q7SUFDSSxhQUFhO0lBQ2IsbUJBQW1CO0lBQ25CLG1CQUFtQjtJQUNuQixpQkFBaUI7Q0FDcEI7O0FBRUQ7SUFDSSxhQUFhO0lBQ2IsbUJBQW1CO0lBQ25CLG1CQUFtQjtJQUNuQixpQkFBaUI7Q0FDcEI7O0FBRUQ7SUFDSSxhQUFhO0lBQ2IsbUJBQW1CO0lBQ25CLG1CQUFtQjtJQUNuQixpQkFBaUI7Q0FDcEI7O0FBRUQ7SUFDSSxhQUFhO0lBQ2IsbUJBQW1CO0lBQ25CLG1CQUFtQjtJQUNuQixpQkFBaUI7Q0FDcEIiLCJmaWxlIjoic2Nyb2xsaW5nLW5hdi5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIvKiFcbiAqIFN0YXJ0IEJvb3RzdHJhcCAtIFNjcm9sbGluZyBOYXYgSFRNTCBUZW1wbGF0ZSAoaHR0cDovL3N0YXJ0Ym9vdHN0cmFwLmNvbSlcbiAqIENvZGUgbGljZW5zZWQgdW5kZXIgdGhlIEFwYWNoZSBMaWNlbnNlIHYyLjAuXG4gKiBGb3IgZGV0YWlscywgc2VlIGh0dHA6Ly93d3cuYXBhY2hlLm9yZy9saWNlbnNlcy9MSUNFTlNFLTIuMC5cbiAqL1xuXG5ib2R5IHtcbiAgICB3aWR0aDogMTAwJTtcbiAgICBoZWlnaHQ6IDEwMCU7XG59XG5cbmh0bWwge1xuICAgIHdpZHRoOiAxMDAlO1xuICAgIGhlaWdodDogMTAwJTtcbn1cblxuQG1lZGlhKG1pbi13aWR0aDo3NjdweCkge1xuICAgIC5uYXZiYXIge1xuICAgICAgICBwYWRkaW5nOiAyMHB4IDA7XG4gICAgICAgIC13ZWJraXQtdHJhbnNpdGlvbjogYmFja2dyb3VuZCAuNXMgZWFzZS1pbi1vdXQscGFkZGluZyAuNXMgZWFzZS1pbi1vdXQ7XG4gICAgICAgIC1tb3otdHJhbnNpdGlvbjogYmFja2dyb3VuZCAuNXMgZWFzZS1pbi1vdXQscGFkZGluZyAuNXMgZWFzZS1pbi1vdXQ7XG4gICAgICAgIHRyYW5zaXRpb246IGJhY2tncm91bmQgLjVzIGVhc2UtaW4tb3V0LHBhZGRpbmcgLjVzIGVhc2UtaW4tb3V0O1xuICAgIH1cblxuICAgIC50b3AtbmF2LWNvbGxhcHNlIHtcbiAgICAgICAgcGFkZGluZzogMDtcbiAgICB9XG59XG5cbi8qIERlbW8gU2VjdGlvbnMgLSBZb3UgY2FuIHVzZSB0aGVzZSBhcyBndWlkZXMgb3IgZGVsZXRlIHRoZW0gLSB0aGUgc2Nyb2xsZXIgd2lsbCB3b3JrIHdpdGggYW55IHNvcnQgb2YgaGVpZ2h0LCBmaXhlZCwgdW5kZWZpbmVkLCBvciBwZXJjZW50YWdlIGJhc2VkLlxuVGhlIHBhZGRpbmcgaXMgdmVyeSBpbXBvcnRhbnQgdG8gbWFrZSBzdXJlIHRoZSBzY3JvbGxzcHkgcGlja3MgdXAgdGhlIHJpZ2h0IGFyZWEgd2hlbiBzY3JvbGxlZCB0by4gQWRqdXN0IHRoZSBtYXJnaW4gYW5kIHBhZGRpbmcgb2Ygc2VjdGlvbnMgYW5kIGNoaWxkcmVuIFxub2YgdGhvc2Ugc2VjdGlvbnMgdG8gbWFuYWdlIHRoZSBsb29rIGFuZCBmZWVsIG9mIHRoZSBzaXRlLiAqL1xuXG4uaW50cm8tc2VjdGlvbiB7XG4gICAgaGVpZ2h0OiAxMDAlO1xuICAgIHBhZGRpbmctdG9wOiAxNTBweDtcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgYmFja2dyb3VuZDogI2ZmZjtcbn1cblxuLmFib3V0LXNlY3Rpb24ge1xuICAgIGhlaWdodDogMTAwJTtcbiAgICBwYWRkaW5nLXRvcDogMTUwcHg7XG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xuICAgIGJhY2tncm91bmQ6ICNlZWU7XG59XG5cbi5zZXJ2aWNlcy1zZWN0aW9uIHtcbiAgICBoZWlnaHQ6IDEwMCU7XG4gICAgcGFkZGluZy10b3A6IDE1MHB4O1xuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgICBiYWNrZ3JvdW5kOiAjZmZmO1xufVxuXG4uY29udGFjdC1zZWN0aW9uIHtcbiAgICBoZWlnaHQ6IDEwMCU7XG4gICAgcGFkZGluZy10b3A6IDE1MHB4O1xuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgICBiYWNrZ3JvdW5kOiAjZWVlO1xufSJdfQ== */
