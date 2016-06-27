@@ -72,11 +72,11 @@ angular.module('sponsBrochureApp')
       events.css({"opacity": '0'});
 
       var misVis = $(".misVis");
-      var misVis_topOfthDiv = $("#events-last").offset().top - 200;
+      var misVis_topOfthDiv = $("#events-last").offset().top - 2000;
       misVis.css({"opacity": '0'});
 
       var humble = $(".humble");
-      var humble_topOfthDiv = $("#mission").offset().top + 500;
+      var humble_topOfthDiv = $("#mission").offset().top -500;
       humble.css({"opacity": '0'});
 
       var cores = $(".cores");
@@ -120,6 +120,7 @@ angular.module('sponsBrochureApp')
           });
         }
         if ($(window).scrollTop() > misVis_topOfthDiv) {
+          console.log($(window).scrollTop());
           misVis.each(function (i) {
             $(this).delay((i++)*500).fadeTo(1000, 1);
           });
