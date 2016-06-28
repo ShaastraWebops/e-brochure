@@ -235,7 +235,7 @@ table
 .mission {
 	background-color: #35C8B6;
 	color: white;
-	margin-top: 5%; 
+	/*margin-top: 5%;*/ 
 	padding: 10% 5% 5% 5%;
 	font-size: 1.2em;
 	font-family: 'myriad-pro-font';

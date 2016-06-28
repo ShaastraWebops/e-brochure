@@ -72,7 +72,7 @@ angular.module('sponsBrochureApp')
       events.css({"opacity": '0'});
 
       var misVis = $(".misVis");
-      var misVis_topOfthDiv = $("#events-last").offset().top - 2000;
+      var misVis_topOfthDiv = $("#events-last").offset().top - 2800;
       misVis.css({"opacity": '0'});
 
       var humble = $(".humble");
