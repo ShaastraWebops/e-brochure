@@ -3,9 +3,15 @@ body
 	background-color: black;
 }
 
+#firstimg, #prevshowsimg, #shows, #social, #social2, #media, #sponsors, #motto
+{
+	width: 100%;
+	/*margin-top: 1%;*/
+}
+
 .motto {
   color: white;
-	background-color: #35C8B6; 
+	background-color: #d6d6d6; 
 	padding: 5%;
 	text-transform: uppercase;
 	font-weight: bold;
@@ -27,9 +33,14 @@ body
   height: auto;
 }
 
+.awaits
+{
+	background-color: #d6d6d6;
+}
+
 #await {    
   text-align: center;
-  color: #3C3D43;
+  color: black;
   font-size: 2.5em;
   padding: 2%;
   font-family: 'myriad-pro-font';
@@ -238,8 +249,8 @@ table
 }
 
 .mission {
-	background-color: #35C8B6;
-	color: white;
+	background-color: #d6d6d6;
+	color: black;
 	/*margin-top: 5%;*/ 
 	padding: 10% 5% 5% 5%;
 	font-size: 1.2em;
@@ -330,7 +341,7 @@ table
 }
 
 .acheivements {
-	background-color: #35C8B6;
+	background-color: #d6d6d6;
 	font-family: 'myriad-pro-font';
 	font-weight: bold;
 }
@@ -364,14 +375,16 @@ table
 	margin-left:2%;
 }
 .humbly{
-	background-image: url('../images/spons_img/14.png');
+	/*background-image: url('../images/spons_img/14.*//*png');*/
+	background-color: #111111;
 }
 
 .footer {
 	color: white;
-	background-image: url('../images/spons_img/00000.png');
+	/*background-image: url('../images/spons_img/00000.png');*/
 	padding: 0%;
 	font-family: 'myriad-pro-font';
+	background-color: #111111;
 }
 
 .footer-top {
@@ -380,10 +393,11 @@ table
 }
 
 .footer-middle {
-	background-color: rgba(128, 128, 128, 0.1);
+	/*background-color: rgba(128, 128, 128, 0.1);
 	text-transform: uppercase;
 	text-align: center;
-	padding: 3% 0%;
+	padding: 0% 0%;*/
+	display: none;
 }
 
 .footer-bottom {
