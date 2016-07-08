@@ -5,6 +5,59 @@
 	/*margin-top: 1%;*/
 }
 
+body
+{
+	padding-top: 51px;
+}
+
+#quotesheading
+{
+	background-color: black;
+	color: #eeeaea;
+	font-size: 60px;
+	width: 40%;
+	position: absolute;
+	left: 2%;
+	height: 80px;
+}
+
+.quotes
+{
+	background-color: #111111;
+	color: white;
+	font-size: 16px;
+	padding: 2%;
+	height: 1000px;
+	padding-bottom: 0%;
+}
+
+.subquotes
+{
+	background-color: #a2a2a2;
+	padding : 3%;
+	border-radius: 5%;
+	width: 80%;
+	margin-bottom: 2%;
+
+}
+
+
+
+.quotes h4
+{
+	color: #000000;
+}
+
+.quotes p
+{
+	color: #111111;
+}
+
+.navbar-inverse li a
+{
+	font-size: 18px;
+}
+
 .motto {
   color: white;
 	background-color: #d6d6d6; 
