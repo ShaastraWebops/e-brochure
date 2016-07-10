@@ -14,44 +14,96 @@ body
 {
 	background-color: black;
 	color: #eeeaea;
-	font-size: 60px;
-	width: 40%;
+	font-size: 40px;
+	width: 25%;
 	position: absolute;
 	left: 2%;
-	height: 80px;
+	height: 55px;
 }
 
 .quotes
 {
 	background-color: #111111;
 	color: white;
-	font-size: 16px;
+	font-size: 14px;
 	padding: 2%;
-	height: 1000px;
+	height: 620px;
 	padding-bottom: 0%;
 }
 
 .subquotes
 {
-	background-color: #a2a2a2;
-	padding : 3%;
-	border-radius: 5%;
-	width: 80%;
+	/*background-color: #a2a2a2;*/
+	padding : 0.5%;
+	border-radius: 2%;
+	width: 30%;
 	margin-bottom: 2%;
+	margin-right: 2%;
+	position: relative;
 
 }
 
-
-
-.quotes h4
+h4 strong
 {
-	color: #000000;
+	color: white;
 }
 
 .quotes p
 {
-	color: #111111;
+	color: #a2a2a2;
+	text-align: center;
 }
+
+#quote2
+{
+	top: -1%;
+}
+#quote3
+{
+	top : -3%;
+}
+#quote4
+{
+	top : -3%;
+	left : -65%;
+}
+#quote5
+{
+	top : -18%;
+	left : 65%;
+}
+#quote6
+{
+	top : -10%;
+}
+#quote7
+{
+	top : 25%;
+	left : -32%;
+}
+#quote8
+{
+	top : -8%;
+	left : 3%;
+}
+#quote9
+{
+	top : -40%;
+	left : 0%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .navbar-inverse li a
 {
