@@ -5,6 +5,15 @@
 	/*margin-top: 1%;*/
 }
 
+#newcaterpillar
+{	
+	position : absolute;
+	top: 60%;
+
+	width: 50%;
+	height: 5%;
+}
+
 body
 {
 	padding-top: 51px;
