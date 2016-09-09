@@ -146,13 +146,16 @@ h4 strong
 .awaits
 {
 	background-color: #d6d6d6;
+	position: relative;
+	top: -220px;
+	z-index: 100;
 }
 
 #await {    
   text-align: center;
   color: black;
   font-size: 2.5em;
-  padding: 2%;
+  padding: 1%;
   font-family: 'myriad-pro-font';
   font-weight: bold;
 }
